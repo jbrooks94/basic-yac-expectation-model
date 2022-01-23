@@ -1,0 +1,4 @@
+install.packages("nflfastR")
+library(nflfastR)
+pbp <- load_pbp(2021) # 2021 = 2021-22 season
+write.csv(pbp,"pbp.csv") # (assignment, "desired_file_name.csv")
