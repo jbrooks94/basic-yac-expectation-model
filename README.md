@@ -42,3 +42,12 @@ As shown, the model returned an expected YAC of 5.9 giving Harris 59.1 YAC over 
 [step1_nflfastR.r](https://github.com/jbrooksdata/basic-yac-expectation-model/blob/main/step1_nflfastR).
 - NFL Next Gen Stats [directly references](https://nextgenstats.nfl.com/stats/top-plays/yac/2021/REG/all) the use of metrics like receiver speed, separation, and defender location.
 This information is not available through the utilized nflfastR function.
+
+## Conclusion
+
+Overall, this basic model was decently effective at returning similar YAC above expected numbers to those of the NFL's Next Gen Stats advanced model. I plan to introduce other variables available in the nflfastR package in the future to observe how various factors may affect the expected yards after catch in any given situation
+
+## References
+
+- [nflfastR package](https://www.nflfastr.com/) by [Sebastian Carl](https://twitter.com/mrcaseb) and [Ben Baldwin](https://twitter.com/benbbaldwin).
+- [NFL Next Gen Stats](https://nextgenstats.nfl.com/).
