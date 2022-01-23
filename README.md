@@ -1,4 +1,4 @@
-# YAC Over Expecation Using R, SQL, and Excel
+# YAC Over Expectation Using R, SQL, and Excel
 
 These are the materials for my basic yards after catch over expectation model using 2021 NFL regular season data.
 
